@@ -1,42 +1,66 @@
-/* Reset default margin and padding */
-body, h1, h2, p, ul, li {
+/* Reset default margin and padding for all elements */
+* {
     margin: 0;
     padding: 0;
 }
 
-/* Basic styling */
+/* Create a consistent spacing around elements */
 body {
+    margin: 20px;
     font-family: Arial, sans-serif;
-    line-height: 1.6;
 }
 
+/* Header styling */
 header {
-    background-color: #f4f4f4;
-    padding: 20px;
     text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    background-color: #333;
-    justify-content: center;
-    padding: 10px 0;
-}
-
-nav li {
-    margin: 0 10px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-}
-
-section {
-    padding: 20px;
     margin-bottom: 20px;
 }
 
-/* Additional custom styling */
-/* Add your custom CSS styles here */
+/* Navigation styling */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navigation links */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Main content section */
+main {
+    margin: 20px;
+}
+
+/* Section headings */
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Footer links */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Responsive styles can be added here */
